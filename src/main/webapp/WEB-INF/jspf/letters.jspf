@@ -1,0 +1,15 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page pageEncoding="UTF-8" %>
+
+<div class="letters">
+    <jsp:useBean id="letterList" class="ru.dinis.library.service.LetterList" scope="page"/>
+    <%
+        request.setCharacterEncoding("utf-8");
+        char[] letters = letterList.getRussianLetters();
+        for (int i = 0; i < letters.length; i++) {
+    %>
+    <a href="book.jsp?letter=<%=letters[i]%>"><%=letters[i]%></a>
+    <%
+        }
+    %>
+</div>

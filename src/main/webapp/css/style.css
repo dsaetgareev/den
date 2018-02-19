@@ -1,0 +1,48 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    /*background-color: black;*/
+    margin:100px;
+    background: url("/image/kamilla.JPG") no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+.fon {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.main{
+    background-color: aqua;
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content {
+
+}
+
+.test {
+
+}
+
+.title {
+    text-align: center;
+    font-size: 18px;
+}
+
+.form {
+    margin: auto;
+    background: center;
+}
